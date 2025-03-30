@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tactitoe",
+    "description": "Chrome Extension Mini Game",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+    "16": "Tactitoe.png",
+    "32": "Tactitoe.png",
+    "48": "Tactitoe.png",
+    "128": "Tactitoe.png"
+  }
+    
+}

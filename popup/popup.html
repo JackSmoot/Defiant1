@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <title>Chrome Extension Popup</title>
+    <style>
+        body {
+            width: 375px;
+            height: 450px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Aldrich', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 0px;
+            width: 375px;
+        }
+        button {
+            width: 125px;
+            height: 125px;
+            font-size: 36px;
+            cursor: pointer;
+            border: 5px solid #000;
+            background-color: aliceblue;
+            
+        }
+        button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Tactitoe by Defiant Ones</h3>
+
+    <div class="grid">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+    </div>
+
+    <p>Click a button to proceed.</p>
+
+</body>
+</html>
